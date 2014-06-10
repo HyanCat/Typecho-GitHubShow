@@ -45,7 +45,7 @@ class GitHubShow_Plugin implements Typecho_Plugin_Interface
     {
         /** 分类名称 */
         $name = new Typecho_Widget_Helper_Form_Element_Radio('text', NULL, '',
-            _t('使用说明：<br>文章中使用 [github show="JeffreyZhao/jscex"/] 即可嵌入该git.'));
+            _t('使用说明：<br>文章中使用 [github show="JeffreyZhao/jscex"] 即可嵌入该git.'));
         $form->addInput($name);
     }
     
